@@ -3,10 +3,36 @@
 <head>
     <title>HTML contols</title>
 </head>
-<body>
-    <h2>Tables  </h2>h2>
-    <table>
-        <thead></thead>
+<body style="background: #FF00FF">
+    <h2>Articles and sections</h2>
+    <article>
+        <section>
+            section 1 <i>with italic</i> and <u>underline</u>
+        </section>
+
+        <section>
+            <p>
+                section 2 <b>with bold text </b>
+            </p>
+        </section>
+    </article>
+
+    <h2>Tables</h2>
+    <table border="1">
+        <thead>
+            <caption>Table Title</caption>
+            <tr>
+                <td>
+                    <b>Column 0</b>
+                </td>
+                <td>
+                    Column 1
+                </td>
+                <td>
+                    Column 2
+                </td>
+            </tr>
+        </thead>
         <tbody>
             <!--This is the actual bdy of the table -->
 
@@ -31,12 +57,65 @@
         </tbody>
     </table>  
     
-    <h2>Lists
+    <h2>Lists</h2>
 
+    Un-order list
+    <ul>
+        <li>Number 1</li>
+        <li>Number 2</li>
+    </ul>
 
-    </h2>
+    Ordered list    
+    <ol>
+        <li>Number 1</li>
+        <li>Number 2</li>
+    </ol>
 
     <h2>Contols</h2>
-        <button value="text"></button>
+
+    <div>
+        <button value="button">Click ME!</button>
+
+        <br />
+
+        <h3>
+            Drop -down
+        </h3>
+    
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select> 
+        
+        <br />
+        
+        <label><h3>Password</h3></label>
+        <input type="password" value="123" />
+
+        <br/>
+
+        <input type="number" placeholder="123" />
+
+        <br/>
+
+        <input type="radio" name="animals" value="cats">cats</input>
+        <input type="radio" name="animals" value="dogs">dogs</input>
+
+        <label>Other:</label>
+        <input type="text" />
+
+        <br />
+
+        <h3>
+            Checkboxes
+        </h3>
+        <input type="checkbox">apples</input>
+        <input type="checkbox">grapes</input>
+    </div>
+    
+    <footer>
+        <hr />
+        End of my first page!!!
+    </footer>
 </body>
 </html>
